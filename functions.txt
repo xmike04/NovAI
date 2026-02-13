@@ -1,0 +1,25 @@
+# system functions
+
+1. core
+- skill_manager: finds skills in features folder and runs them. uses regex or llm.
+- nlp: uses spacy to find entities.
+- llm: handles openai or local ollama calls.
+- memory: saves chat history.
+- mood: checks if user is happy/sad.
+
+2. audio
+- wake_word: listens for 'jarvis' using porcupine.
+- stt: whisper model for speech to text.
+- tts: system 'say' command for talking back.
+
+3. ui
+- main_window: pyqt5 gui with 3 panels.
+- cards: show skill status.
+- timeline: shows what the bot is doing.
+
+4. skills
+- app_control: opens/closes apps on mac.
+- scheduler: sets reminders.
+- profile: remembers user info.
+- knowledge: reads pdfs (rag).
+- workflow: runs multiple steps.

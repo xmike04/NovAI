@@ -1,0 +1,27 @@
+# Environments
+venv/
+env/
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Database
+chroma_db/
+*.sqlite3
+
+# Secrets
+credentials.json
+config/credentials.json
+token.json
+.env
+.env.*

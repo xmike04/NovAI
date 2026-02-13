@@ -1,0 +1,7 @@
+{
+    "morning test": [
+        "get_time",
+        "get_date",
+        "get_weather"
+    ]
+}
